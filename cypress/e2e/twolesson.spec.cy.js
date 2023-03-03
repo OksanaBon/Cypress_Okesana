@@ -11,10 +11,7 @@ it.only("Using gat with find an", () => {
     cy.viewport(1000, 650)
     cy.visit("https://docs.cypress.io/api/commands/eq"),
         // cy.get('div').find('ul').find('li').find('a').eq(43)
-        cy.get('.col.col--3').find('ul').find('li').find('a').eq(0).invoke('text').then((text) => {
-            // log the text to the console
-            console.log(text);
-          });
+        cy.get('.col.col--3').find('ul').find('li').find('a').eq(0)
         // cy.get('ul').find('li').find('a').eq(43)
 });
 }
