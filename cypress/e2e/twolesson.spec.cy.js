@@ -13,5 +13,7 @@ it.only("Using gat with find an", () => {
         // cy.get('div').find('ul').find('li').find('a').eq(43)
         cy.get('.col.col--3').find('ul').find('li').find('a').eq(0)
         // cy.get('ul').find('li').find('a').eq(43)
+        //dimon
+        //jj
 });
 }
