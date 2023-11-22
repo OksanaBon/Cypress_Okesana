@@ -10,6 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.7.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.4"
   }
-
 }
